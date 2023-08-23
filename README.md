@@ -2,7 +2,7 @@
 
 <div align="center">
   <img src="./src/assets/images/alpanna_logo.png" alt="logo"  height="75px"/>
-  <h1>ALPANNA</h1>
+  <h3>ALPANNA</h3>
     <img styl="padding: 20px 10px;" src="./src/assets/images/todo.png" alt="logo"  height="300px" />
     <h1 style="font-size: 76px; font-weight: 900;"><b> ToDo Tasks List </b></h1>
     <h1> Tasks Orgnaizer and Tracer </h1>
