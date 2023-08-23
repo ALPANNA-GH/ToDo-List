@@ -34,7 +34,7 @@
 > ToDo Tasks List Organizer and tracer web-application
 
 **ToDo List**
-simple web-app creating editing list of tasks to trace, organize, check done / still situation
+simple web-app creating an editing list of tasks to trace, organize, and check done / still situation
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -111,7 +111,7 @@ simple web-app creating editing list of tasks to trace, organize, check done / s
 - **Add Task**
 - **Edit Task**
 - **Remove Task / Tasks**
-- **Re-oreder Tasks**
+- **Re-order Tasks**
 - **Check Tasks Done**
 - **Responsive**
 - **Drag/Drop**
@@ -120,16 +120,16 @@ simple web-app creating editing list of tasks to trace, organize, check done / s
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> The link to live ToDo List web-app.
+> The link to the live ToDo List web-app.
 
-- [ Click Here for Live Demo ](https://alpanna-gh.github.io/webpack-installation)
+- [ Click Here for Live Demo ]( https://alpanna-gh.github.io/ToDo-List/dist/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describtion of how to use this application.
+> Description of how to use this application.
 
 ### Prerequisites
 
@@ -138,7 +138,7 @@ NO Prerequisites needed for this project
 ### Setup
 
 Clone this repository open it with GH desktop, or download it<br>
-`Code -> HTTPS -> copy link | download zip | open on GH disktop app`<br>
+`Code -> HTTPS -> copy link | download zip | open on GH desktop app`<br>
 ['ToDo List' copy this URL link](https://github.com/ALPANNA-GH/ToDo-List.git)
 
 ### Install
@@ -147,7 +147,7 @@ No installation required
 
 ### Usage
 
-You can use it as a tasks organizer or as a template for your own project.
+You can use it as a task organizer or as a template for your own project.
 
 ### Run tests
 
@@ -175,7 +175,7 @@ Just check for linters, GH-workflows
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Some future features gonna be added soon
+> Some future features are going to be added soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,7 +184,7 @@ Just check for linters, GH-workflows
 
 👤 **Contributors**
 
-> thanks for your effort, time and valuable contributions
+> Thanks for your effort, time and valuable contributions
 - 
 > Contributions, issues, and feature requests are welcome!
 
@@ -201,21 +201,21 @@ Just check for linters, GH-workflows
 
 > Write a message to encourage the Author to continue development
 
-If you like this project your comments, messeges, and support are welcome.
+If you like this project your comments, messages, and support are welcome.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> special thanks.
+> Special thanks.
 
 Thank you,
-> to all code reviewers who guid us through this project.
+> to all code reviewers who guided us through this project.
 
-> to all cool people who master techs and still answeres tech questions.
+> to all cool people who master techs and still answer tech questions.
 
-> to everyone who support us, inspired us, and teach us.
+> to everyone who supports us, inspires us, and teaches us.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -226,17 +226,17 @@ Thank you,
 
 - **Can I use it as a template for my Project?**
 
-  - yes you can use it, edit it and distribute it.
+  - Yes you can use it, edit it and distribute it.
 
-- **how to edite config files it ?**
+- **How to edit config files?**
 
-  - you need periore knowledge of webpack configuration or refer to the webpack online documentation
+  - You need previous knowledge of webpack configuration or refer to the webpack online documentation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 📝 License <a name="license"></a>
 
-This project is under [MIT](./LICENSE) licensed.
+This project is under [MIT](./LICENSE) license.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
