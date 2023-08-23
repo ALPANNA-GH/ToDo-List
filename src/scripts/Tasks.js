@@ -1,13 +1,12 @@
 export class Tasks {
   constructor () {
     this.taskList = [
-      { index: 1, desc: 'task1', done: false },
-      { index: 2, desc: 'task2', done: false },
-      { index: 3, desc: 'task3', done: false },
-      { index: 4, desc: 'task4', done: false },
-      { index: 5, desc: 'task5', done: false },
-      { index: 6, desc: 'task7', done: true }
-
+      { index: 1, description: 'task1', completed: false },
+      { index: 2, description: 'task2', completed: false },
+      { index: 3, description: 'task3', completed: false },
+      { index: 4, description: 'task4', completed: false },
+      { index: 5, description: 'task5', completed: false },
+      { index: 6, description: 'task7', completed: true }
     ]
   }
 
