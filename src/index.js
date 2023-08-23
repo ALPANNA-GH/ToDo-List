@@ -1,9 +1,9 @@
-// import _ from 'lodash'
+import _ from 'lodash'
 import './style.css'
 // import { Tasks } from './scripts/Tasks'
-import { displayTasks } from './scripts/display-tasks'
+// import { displayTasks } from './scripts/display-tasks'
 
-displayTasks()
+// displayTasks()
 
 // function component () {
 //   const element = document.createElement('div')
