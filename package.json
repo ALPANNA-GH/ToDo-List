@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "Tasks organizer",
   "private": "true",
+  "repository": {
+    "url": "git+https://github.com/ALPANNA-GH/ToDo-List.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
     "server": "node server.js",
-    "build": "webpack"
+    "build": "webpack --mode=development",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Ahmed Alpanna",
