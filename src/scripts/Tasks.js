@@ -11,19 +11,19 @@ export class Tasks {
     ]
   }
 
-  // addTask(task) {
+  addTask (task) {
+    alert('task')
+  }
 
-  // }
+  removeTask (task) {
+    alert('task')
+  }
 
-  // removeTask(task) {
+  editTask (task) {
+    alert('task')
+  }
 
-  // }
-
-  // editTask(task) {
-
-  // }
-
-  // reOrderTask(task) {
-
-  // }
+  reOrderTask (task) {
+    alert('task')
+  }
 }

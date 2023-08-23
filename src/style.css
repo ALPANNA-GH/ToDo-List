@@ -70,7 +70,7 @@ h1 {
 }
 
 .add-task,
-.todotag-card{
+.todotag-card {
   background-color: #9b8c7a;
   border-radius: 3px;
   font-weight: 800;
@@ -130,7 +130,7 @@ footer p {
   border-radius: 5px;
   box-shadow: 3px 3px 3px #4d4d4d4d;
   border: 1px solid #0033;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 700;
   font-size: 1rem;
   color: #4d4d4d;
@@ -156,4 +156,3 @@ footer {
   bottom: 0;
   margin: 10px 0 0;
 }
-
