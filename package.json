@@ -4,7 +4,8 @@
   "description": "Tasks organizer",
   "private": "true",
   "repository": {
-    "url": "git+https://github.com/ALPANNA-GH/ToDo-List.git"
+    "url": "git+https://github.com/ALPANNA-GH/ToDo-List.git",
+    "homepage": "http://ALPANNA-GH.github.io/ToDo-List"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

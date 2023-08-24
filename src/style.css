@@ -3,13 +3,14 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0;
   margin: auto;
+  padding-bottom: 50px;
   width: 99%;
   height: max-content;
   min-width: 98vw;
   min-height: 98vh;
   background-color: #c7b9aa;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -36,7 +37,11 @@ h1 {
   color: #4d4d4d;
   font-size: 1.2rem;
   width: 70%;
-  padding: 0 15px;
+  padding: 2px 15px;
+  background-color: transparent;
+  border: none;
+  outline: #4d4d4d4d 1px solid;
+  outline-style: none;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -71,7 +76,7 @@ h1 {
 
 .add-task,
 .todotag-card {
-  background-color: #9b8c7a;
+  background-color: #7c7c7c;
   border-radius: 3px;
   font-weight: 800;
   font-size: 20px;
@@ -122,7 +127,7 @@ footer p {
 }
 
 .clear-completed {
-  width: 98%;
+  width: 95%;
   height: 35px;
   padding: 5px;
   margin: 10px auto;
