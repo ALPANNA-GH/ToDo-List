@@ -8,11 +8,11 @@ export class Tasks {
     this.taskName = document.querySelector('#taskName')
   }
 
-  addTask () {
+  addTask (taskName) {
     const indexVal = this.taskList.length ?? 0
     const newTask = {
       index: indexVal,
-      description: this.taskName.value,
+      description: taskName,
       completed: false
     }
     this.taskList.push(newTask)
@@ -29,10 +29,9 @@ export class Tasks {
     }
   }
 
-  editName (task) {
-  }
-
-  editIndex (id, val) {
+  editName (id, editedName) {
+    this.taskList[id].description = editedName
+    this.setLocalStorage()
   }
 
   editComplete (id, val) {

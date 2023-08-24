@@ -23,7 +23,6 @@ export function displayTasks () {
     taskCard.append(doneCheck, descP, indexP)
     taskListContainer.appendChild(taskCard)
   })
-  events.addTaskEvent()
   events.editTaskCompletedEvent()
-  events.clearCompletedTasksEvent()
+  events.editTaskName()
 }
