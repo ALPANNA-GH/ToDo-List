@@ -1,40 +1,59 @@
+import { displayTasks } from './display-tasks'
+
 export class Tasks {
   constructor () {
+    this.taskList = []
+    // task object figure { index: 3, description: 'task3', completed: true }
     this.getLocalStorage()
     this.taskName = document.querySelector('#taskName')
-    // { index: 1, description: 'task1', completed: false },
-    // { index: 2, description: 'task2', completed: false },
-    // { index: 3, description: 'task3', completed: false },
-    // { index: 4, description: 'task4', completed: false },
-    // { index: 5, description: 'task5', completed: false },
-    // { index: 6, description: 'task7', completed: true }
   }
 
   addTask () {
-    const taskMaxId = Math.max(...this.taskList.map((task) => task.id), 0)
+    const indexVal = this.taskList.length ?? 0
     const newTask = {
-      index: taskMaxId + 1,
-      description: this.taskName.textContent,
+      index: indexVal,
+      description: this.taskName.value,
       completed: false
     }
     this.taskList.push(newTask)
     this.setLocalStorage()
+    displayTasks()
   }
 
   removeTask (task) {
-    alert('task')
+    for (let t = 0; t < this.taskList.length; t++) {
+      if (this.taskList[t].completed === true) {
+        this.taskList.splice(t, 1)
+        this.reOrderTask()
+      }
+    }
   }
 
-  editTask (task) {
-    alert('task')
+  editName (task) {
+  }
+
+  editIndex (id, val) {
+  }
+
+  editComplete (id, val) {
+    this.taskList[id].completed = val
+    this.setLocalStorage()
   }
 
   reOrderTask (task) {
-    alert('task')
+    for (let t = 0; t < this.taskList.length; t++) {
+      this.taskList[t].index = t
+    }
+    this.setLocalStorage()
+    displayTasks()
   }
 
   getLocalStorage () {
-    this.taskList = JSON.parse(localStorage.getItem('taskList')) || []
+    try {
+      this.taskList = JSON.parse(localStorage.getItem('taskList')) ?? []
+    } catch {
+      this.taskList = []
+    }
   }
 
   setLocalStorage () {
