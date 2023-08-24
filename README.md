@@ -122,7 +122,7 @@ simple web-app creating an editing list of tasks to trace, organize, and check d
 
 > The link to the live ToDo List web-app.
 
-- [ Click Here for Live Demo ]( https://alpanna-gh.github.io/ToDo-List/)
+- [ Click Here for Live Demo ]( https://alpanna-gh.github.io/ToDo-List/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
